@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..905&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-slate-50: #FFF5F6;
+  --color-slate-100: #FFE6E9;
+  --color-slate-150: #FCD0D6;
+  --color-slate-200: #F8B3BD;
+  --color-slate-300: #E28997;
+  --color-slate-400: #D87685;
+  --color-slate-500: #B55465;
+  --color-slate-600: #943A4A;
+  --color-slate-700: #782736;
+  --color-slate-800: #5C1925;
+  --color-slate-900: #3E0C15;
+
+  --color-rose-50: #FFF9FA;
+  --color-rose-100: #FFEBEF;
+  --color-rose-200: #FCA9B7;
+  --color-rose-300: #F47D92;
+  --color-rose-500: #E6435F;
+  --color-rose-600: #C92A46;
+  --color-rose-700: #A31B32;
+  --color-rose-800: #7D0E20;
+
+  --color-amber-50: #FFFDF9;
+  --color-amber-100: #FCECE9;
+  --color-amber-200: #FBDFD9;
+  --color-amber-400: #EFA698;
+  --color-amber-500: #DB8A7A;
+  --color-amber-600: #BC6A5B;
+
+  --color-gray-50: #FFF5F6;
+  --color-gray-100: #FFE6E9;
+  --color-gray-200: #F8B3BD;
+  --color-gray-400: #D87685;
+  --color-gray-500: #B55465;
+  --color-gray-600: #943A4A;
+  --color-gray-800: #5C1925;
+
+  --color-red-500: #E6435F;
+  --color-red-600: #C92A46;
+}
+
+@layer base {
+  body {
+    background-color: #FFF5F6;
+    color: #5C1925;
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  }
+  
+  h1, h2, .font-serif-brand {
+    font-family: "Playfair Display", Georgia, serif !important;
+  }
+
+  /* Soft custom scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F9F7F2;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D8E0D1;
+    border-radius: 99px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7A8D7D;
+  }
+}

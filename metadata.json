@@ -1,0 +1,6 @@
+{
+  "name": "Gestão de Papelaria Personalizada",
+  "description": "Sistema de gestão completo para papelaria personalizada contendo módulos de estoque, pedidos, orçamentos, status de produção, cadastro de clientes e fluxo financeiro, além de acompanhamento de status de pedidos para clientes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
